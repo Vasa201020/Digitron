@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>
+        Prvi broj:
+        <input type="number" id="prvi">
+    </p>
+    <p>
+        Drugi broj:
+        <input type="number" id="drugi">
+    </p>
+    <button id="plus" onclick="plus()">
+        +
+    </button>
+    <button id="minus" onclick="minus()">
+        -
+    </button>
+    <button id="puta" onclick="puta()">
+        *
+    </button>
+    <button id="podeljeno" onclick="podeljeno()">
+        :
+    </button>
+    <button id="jednako" onclick="izracunaj()">
+        =
+    </button>
+    <p id="rezultat" class="hidden">
+
+    </p>
+    <script src="script.js"></script>
+</body>
+</html>

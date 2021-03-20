@@ -1,0 +1,9 @@
+button{
+    color: darkblue;
+}
+.hidden{
+    display: none;
+}
+.vidljivo{
+    display: block;
+}
